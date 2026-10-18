@@ -56,11 +56,10 @@ Before running the project, install or configure:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git git@github.com:Uco7/meta_lead.git
 cd YOUR_PROJECT_FOLDER
 ```
 
-Replace the placeholders with your repository URL and project directory.
 
 ### 2. Install frontend dependencies
 
@@ -86,7 +85,7 @@ Create a `.env` file in the backend directory using the variables expected by yo
 Example:
 
 ```dotenv
-PORT=5000
+PORT=8080
 MONGODB_URI=your_mongodb_connection_string
 META_ACCESS_TOKEN=your_meta_access_token
 ```
@@ -103,7 +102,6 @@ From the backend directory, use the start script defined in its `package.json`. 
 npm run dev
 ```
 
-If your project uses a different script, replace this command with the appropriate one.
 
 ### 6. Configure the React Native connection
 
@@ -170,3 +168,4 @@ This is a proof of concept intended to demonstrate the real-time lead-delivery f
 ## Author
 
 Developed as a technical proof of concept for Meta Lead Ads integration with React Native.
+Author Name: INNOCENT UCHE EMMANUEL
